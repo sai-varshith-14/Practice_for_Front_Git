@@ -104,15 +104,15 @@
 //   console.log(err);
 // }
 
-// try {
-//   let x = y;
-//   let y = 5;
-//   console.log(x+y+1);
-// } catch(err) {
-//   let text = err.name;
-//     console.log(text);
-//   console.log(err);
-// }
+try {
+  let x = y;
+  let y = 5;
+  console.log(x+y+1);
+} catch(err) {
+  let text = err.name;
+    console.log(text);
+  console.log(err);
+}
 
 let anna = 5;
 try {
