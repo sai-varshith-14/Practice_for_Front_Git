@@ -94,36 +94,36 @@
 // const citrus = fruits.slice(1);
 // console.log(citrus)
 
-let x = 5;
+// let x = 5;
 
-try {
-  x = y + 1;
-} catch(err) {
-  let text = err.name;
-  console.log(text);
-  console.log(err);
-}
-
-try {
-  let x = y;
-  let y = 5;
-  console.log(x+y+1);
-} catch(err) {
-  let text = err.name;
-    console.log(text);
-  console.log(err);
-}
-
-let anna = 5;
-try {
-  let x = y;
-  let y = 5;
-  throw 100;
-} catch(err) {
+// try {
+//   x = y + 1;
+// } catch(err) {
 //   let text = err.name;
 //   console.log(text);
-  console.log(err.message);
-}
+//   console.log(err);
+// }
+
+// try {
+//   let x = y;
+//   let y = 5;
+//   console.log(x+y+1);
+// } catch(err) {
+//   let text = err.name;
+//     console.log(text);
+//   console.log(err);
+// }
+
+// let anna = 5;
+// try {
+//   let x = y;
+//   let y = 5;
+//   throw 100;
+// } catch(err) {
+// //   let text = err.name;
+// //   console.log(text);
+//   console.log(err.message);
+// }
 
 async function getData() {
   let result = await fetch("https://jsonplaceholder.typicde.com/posts");
