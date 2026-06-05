@@ -94,15 +94,15 @@
 // const citrus = fruits.slice(1);
 // console.log(citrus)
 
-// let x = 5;
+let x = 5;
 
-// try {
-//   x = y + 1;
-// } catch(err) {
-//   let text = err.name;
-//   console.log(text);
-//   console.log(err);
-// }
+try {
+  x = y + 1;
+} catch(err) {
+  let text = err.name;
+  console.log(text);
+  console.log(err);
+}
 
 try {
   let x = y;
