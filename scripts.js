@@ -114,16 +114,16 @@
 //   console.log(err);
 // }
 
-// let anna = 5;
-// try {
-//   let x = y;
-//   let y = 5;
-//   throw 100;
-// } catch(err) {
-// //   let text = err.name;
-// //   console.log(text);
-//   console.log(err.message);
-// }
+let anna = 5;
+try {
+  let x = y;
+  let y = 5;
+  throw 100;
+} catch(err) {
+//   let text = err.name;
+//   console.log(text);
+  console.log(err.message);
+}
 
 async function getData() {
   let result = await fetch("https://jsonplaceholder.typicde.com/posts");
